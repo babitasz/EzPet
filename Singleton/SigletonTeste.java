@@ -1,4 +1,4 @@
-package Singleton;
+package EzPet.Singleton;
 
 public class SigletonTeste {
 }
