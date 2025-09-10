@@ -1,4 +1,4 @@
-package Strategy;
+package EzPet.Strategy;
 
 public class StrategyTeste {
 }

@@ -1,4 +1,4 @@
-package TemplateMethod;
+package EzPet.TemplateMethod;
 
 public class TemplateMethodTeste {
 }
