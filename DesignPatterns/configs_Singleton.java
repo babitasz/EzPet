@@ -12,8 +12,8 @@ public class configs_Singleton {
         configuracoes = new HashMap<>();
 
         // Financeiro e serviços
-        configuracoes.put("taxa_servico", 0.10); // 10%
-        configuracoes.put("taxa_cancelamento", 0.20); // 20%
+        configuracoes.put("taxa_servico", 0.10);
+        configuracoes.put("taxa_cancelamento", 0.20);
         configuracoes.put("moeda_sistema", "BRL");
         configuracoes.put("limite_transacoes_diarias", 50);
 
