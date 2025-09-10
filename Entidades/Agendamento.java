@@ -1,4 +1,4 @@
-package Entidades;
+package EzPet.Entidades;
 
 import java.util.Date;
 
