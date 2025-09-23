@@ -9,7 +9,7 @@ public class ConfiguracoesUsuario {
     private String endereco;
     private String telefoneSuporte;
 
-    // 🔹 Construtor
+    //Construtor
     public ConfiguracoesUsuario(String nomeEmpresa, String horarioFuncionamento,
                                 String temaSistema, String endereco, String telefoneSuporte) {
         this.nomeEmpresa = nomeEmpresa;
@@ -19,7 +19,7 @@ public class ConfiguracoesUsuario {
         this.telefoneSuporte = telefoneSuporte;
     }
 
-    // 🔹 Métodos Getters e Setters
+    // Métodos Getters e Setters
     public String getNomeEmpresa() {
         return nomeEmpresa;
     }
