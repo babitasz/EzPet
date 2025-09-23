@@ -27,7 +27,7 @@ public class RelatorioConfigsSistema {
         System.out.println("Tentativas de Login Permitidas: " + configs.getTentativasLogin());
         System.out.println("Push Notification Ativado: " + configs.isHabilitarPushNotification());
 
-        // 🔹 Configs do usuário
+        // Configs do usuário
         System.out.println("\n=== Configurações Personalizadas do Usuário ===");
         System.out.println("Nome da Empresa: " + usuario.getNomeEmpresa());
         System.out.println("Horário de Funcionamento: " + usuario.getHorarioFuncionamento());
