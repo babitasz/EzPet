@@ -6,7 +6,7 @@ public abstract class template_Processamento_Relatorio {
     public final void gerarRelatorio() {
         coletarDados();      // Passo 1
         formatar();          // Passo 2
-        // outros passos: enviarOuSalvar(), registrarLog()...
+        exibirRelatorio();
     }
 
     // Passo 1 – Coletar dados
@@ -14,4 +14,7 @@ public abstract class template_Processamento_Relatorio {
 
     // Passo 2 – Formatar dados
     protected abstract void formatar();
+
+    // Passo 3 - Exibir o relatório
+    protected abstract void exibirRelatorio();
 }
