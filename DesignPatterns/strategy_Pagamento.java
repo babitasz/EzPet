@@ -1,7 +1,7 @@
 package EzPet.DesignPatterns;
 
 /**
- * Strategy para método de pagamento.
+ * Strategy para metodo de pagamento.
  * Implementações simples: cartão de crédito, boleto, pix.
  */
 public interface strategy_Pagamento {
